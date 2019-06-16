@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+    <TextView
+        android:textSize="17sp"
+        android:typeface="serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="- Check the Desired Status/Story..." />
+    <TextView
+        android:textSize="17sp"
+        android:typeface="serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="- Come Back to App, Click on any Image or Video to View..." />
+    <TextView
+        android:textSize="17sp"
+        android:typeface="serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="- Click the Save Button...
+The Image/Video is Instantly saved to your Gallery :)" />
+    <TextView
+        android:textSize="17sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="- You can also Use Multiple Saving.
+Hold on any Status to activate Multi Selection Mode, Select all the Statuses you want to Save &amp; Click on Save Icon in the Toolbar." />
+</LinearLayout>

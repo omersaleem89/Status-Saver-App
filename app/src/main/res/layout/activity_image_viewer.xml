@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.whatsappstatus.saver.viewer.ImageViewer">
+    <android.support.design.widget.AppBarLayout
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:background="#00000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/trans_toolbar" />
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <include layout="@layout/view_image" />
+    </LinearLayout>
+    <com.github.clans.fab.FloatingActionMenu
+        android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:menu_showShadow="true"
+        app:menu_fab_size="mini"
+        app:menu_colorNormal="@color/colorPrimary"
+        >
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/savedp"
+            app:fab_colorNormal="@color/colorPrimary"
+            app:fab_size="normal"
+            app:fab_label="Save" />
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/rep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rep"
+            app:fab_colorNormal="@color/colorPrimary"
+            app:fab_size="normal"
+            app:fab_label="Repost" />
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/wall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/wall"
+            app:fab_colorNormal="@color/colorPrimary"
+            app:fab_size="normal"
+            app:fab_label="Set As:" />
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/dlt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dlt"
+            app:fab_colorNormal="@color/colorPrimary"
+            app:fab_size="normal"
+            app:fab_label="Delete" />
+    </com.github.clans.fab.FloatingActionMenu>
+
+
+</android.support.design.widget.CoordinatorLayout>

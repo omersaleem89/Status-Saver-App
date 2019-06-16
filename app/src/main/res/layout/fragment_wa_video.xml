@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_wa_video"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.whatsappstatus.saver.fragments.wa.WAImageFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-6699687107380271/2126437250">
+    </com.google.android.gms.ads.AdView>
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/ref_wa_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foregroundTint="@color/colorPrimary">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview_wa_video"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </android.support.v4.widget.SwipeRefreshLayout>
+    </LinearLayout>
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressbar_wa_video"
+        android:layout_gravity="center"
+        android:visibility="visible"/>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/wa_video_fab_save_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        app:backgroundTint="@color/colorPrimary"
+        android:src="@drawable/saveall"
+        android:layout_margin="16dp" />
+
+</FrameLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">WApp Status Saver</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Share</string>
+
+    <!-- TODO: Remove or change this placeholpathtext -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="status_image">Status Image</string>
+
+    <string name="title_activity_splash">WApp Status Saver</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="admob_app_id">ca-app-pub-6699687107380271~6950225460</string>
+    <string name="interstitial_full_screen">ca-app-pub-6699687107380271/8895187289</string>
+
+</resources>

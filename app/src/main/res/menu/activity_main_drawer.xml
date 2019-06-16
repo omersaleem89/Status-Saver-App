@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_whatsapp"
+            android:icon="@drawable/whatsapp"
+            android:title="Whatsapp Status" />
+        <item
+            android:id="@+id/nav_business"
+            android:icon="@drawable/business_notif"
+            android:title="Business Whatsapp" />
+
+    </group>
+    <group android:id="@+id/main_group_others" android:checkableBehavior="single">
+        <item android:id="@+id/menu_rate" android:icon="@drawable/rate" android:title="RATE APP"/>
+    </group>
+
+</menu>
